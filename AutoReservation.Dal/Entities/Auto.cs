@@ -4,8 +4,5 @@ using System.Data.Entity;
 
 namespace AutoReservation.Dal.Entities
 {
-    public class Auto
-    {
 
-    } 
 }
