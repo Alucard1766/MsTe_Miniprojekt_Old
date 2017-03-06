@@ -136,7 +136,7 @@ namespace AutoReservation.Service.Wcf
             }
             catch (LocalOptimisticConcurrencyException<Reservation> e)
             {
-                throw new FaultException<ReservationDto>(e.MergedEntity.ConvertToDto(), "Reservation update failed");
+                throw new FaultException("Reservation update failed");
             }
             
         }
