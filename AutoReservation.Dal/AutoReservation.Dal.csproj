@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AutoReservation.Dal</RootNamespace>
     <AssemblyName>AutoReservation.Dal</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -85,6 +85,7 @@
   <ItemGroup>
     <None Include="..\Assets\App.config">
       <Link>App.config</Link>
+      <SubType>Designer</SubType>
     </None>
     <None Include="..\..\Assets\AutoReservation.StrongNameKey.snk">
       <Link>..\Assets\AutoReservation.StrongNameKey.snk</Link>

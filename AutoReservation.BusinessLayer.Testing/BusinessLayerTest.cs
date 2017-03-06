@@ -31,19 +31,31 @@ namespace AutoReservation.BusinessLayer.Testing
         [TestMethod]
         public void UpdateAutoTest()
         {
-            Assert.Inconclusive("Test not implemented.");
+            Auto auto = Target.Autos[0];
+            auto.Marke = "Test";
+
+            Target.UpdateAuto(auto);
+            Assert.AreEqual("Test", Target.Autos[0].Marke);
         }
 
         [TestMethod]
         public void UpdateKundeTest()
         {
-            Assert.Inconclusive("Test not implemented.");
+            Kunde kunde = Target.Kunden[0];
+            kunde.Vorname = "Ueli";
+
+            Target.UpdateKunde(kunde);
+            Assert.AreEqual("Ueli", Target.Kunden[0].Vorname);
         }
 
         [TestMethod]
         public void UpdateReservationTest()
         {
-            Assert.Inconclusive("Test not implemented.");
+            Reservation reservation = Target.Reservationen[1];
+            reservation.Bis = new DateTime(2020, 01, 30);
+
+            Target.UpdateReservation(reservation);
+            Assert.AreEqual(new DateTime(2020, 01, 30), Target.Reservationen[1].Bis);
         }
 
     }
