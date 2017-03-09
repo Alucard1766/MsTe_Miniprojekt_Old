@@ -18,6 +18,7 @@ namespace AutoReservation.Service.Wcf
 
         private AutoReservationBusinessComponent _businessLayer = new AutoReservationBusinessComponent();
 
+
         public List<AutoDto> Autos
         {
             get
