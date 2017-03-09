@@ -1,0 +1,8 @@
+Å
+qD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Dal\..\Assets\AssemblyInfo.Shared.cswindows-1252s
+jD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Dal\AutoReservationContext.csutf-8k
+bD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Dal\Entities\Kunde.csutf-8u
+lD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Dal\Migrations\Configuration.csutf-8t
+kD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Dal\Properties\AssemblyInfo.csutf-8q
+hD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Dal\Entities\Reservation.csutf-8j
+aD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Dal\Entities\Auto.csutf-8

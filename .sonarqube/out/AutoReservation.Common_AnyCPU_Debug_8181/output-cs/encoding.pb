@@ -1,0 +1,10 @@
+„
+tD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Common\..\Assets\AssemblyInfo.Shared.cswindows-1252{
+rD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Common\DataTransferObjects\AutoDto.csutf-8~
+uD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Common\DataTransferObjects\AutoKlasse.csutf-8€
+wD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Common\DataTransferObjects\Core\DtoBase.csutf-8…
+|D:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Common\DataTransferObjects\Core\IValidatable.csutf-8|
+sD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Common\DataTransferObjects\KundeDto.csutf-8‚
+yD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Common\DataTransferObjects\ReservationDto.csutf-8‚
+yD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Common\Interfaces\IAutoReservationService.csutf-8w
+nD:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Common\Properties\AssemblyInfo.csutf-8

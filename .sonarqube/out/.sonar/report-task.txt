@@ -1,0 +1,5 @@
+projectKey=MsTeOld
+serverUrl=https://sonarqube.com
+dashboardUrl=https://sonarqube.com/dashboard/index/MsTeOld
+ceTaskId=AVqzHqIRKjs3TT-aJyWR
+ceTaskUrl=https://sonarqube.com/api/ce/task?id=AVqzHqIRKjs3TT-aJyWR

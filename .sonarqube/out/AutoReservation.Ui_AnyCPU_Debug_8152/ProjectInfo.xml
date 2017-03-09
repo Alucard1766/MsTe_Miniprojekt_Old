@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>AutoReservation.Ui</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>89694d5d-6f27-4aaf-97da-f678599a34e9</ProjectGuid>
+  <FullPath>D:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Ui\AutoReservation.Ui.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="D:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\.sonarqube\out\\AutoReservation.Ui_AnyCPU_Debug_8152\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePath">D:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Ui\bin\Debug\AutoReservation.Ui.exe.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPath">D:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\.sonarqube\out\\AutoReservation.Ui_AnyCPU_Debug_8152</Property>
+    <Property Name="sonar.stylecop.projectFilePath">D:\Projekte\GitHub\MsTe_Miniprojekt_old\MsTe_Miniprojekt_Old\AutoReservation.Ui\AutoReservation.Ui.csproj</Property>
+  </AnalysisSettings>
+</ProjectInfo>
