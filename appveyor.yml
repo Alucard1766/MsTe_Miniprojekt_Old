@@ -2,10 +2,12 @@ version: 1.0.{build}
 nuget:
   project_feed: true
 before_build:
-- cmd: nuget restore
-build:
-  project: AutoReservation.sln
-  verbosity: detailed
+  - cmd: nuget restore
+build-script:
+  - choco install "msbuild-sonarqube-runner" -y
+  - MSBuild.SonarQube.Runner.exe begin /k:"MsTeOld" /d:"sonar.host.url=https://sonarqube.com" /d:"sonar.login=61605c17193cfc9e02955b84017820c054822480"
+  - msbuild "AutoReservation.sln"
+  - MSBuild.SonarQube.Runner.exe end /d:"sonar.login=61605c17193cfc9e02955b84017820c054822480"
 environment:
   COVERALLS_REPO_TOKEN:
     secure: +7h2hB/WnQCeWmtuHXc3m2R3gaU8tUPqgC92VJB2AJH/OUdTg1Ddd0L7ax3FvL1j
