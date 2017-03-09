@@ -9,11 +9,6 @@ build:
 environment:
   COVERALLS_REPO_TOKEN:
     secure: +7h2hB/WnQCeWmtuHXc3m2R3gaU8tUPqgC92VJB2AJH/OUdTg1Ddd0L7ax3FvL1j
-after_test: 
-# generate report for NUnit testing framework:
-#   -cmd: packages\OpenCover.4.6.166\tools\OpenCover.Console.exe -register:user -filter:"+[*]*" -target:"packages\NUnit.Runners.2.6.4\tools\nunit-console.exe" -targetargs:"/noshadow /domain:single YOURPROJECT.Tests\bin\debug\YOURPROJECT.Tests.dll" -output:coverage.xml
-
-# generate report for MSTest testing framework:
+after_test:
   - cmd: packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -filter:"+[*]*" -target:"D:\Installations\VisualStudio2015\Common7\IDE\MSTest.exe" -targetargs:"/testcontainer:AutoReservation.BusinessLayer.Testing/bin/debug/AutoReservation.BusinessLayer.Testing.dll" -output:coverage.xml
   - cmd: packages\coveralls.net.0.7.0\tools\csmacnz.Coveralls.exe --opencover coverage.xml
-	
